@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_staff",
+  "info": {
+    "displayName": "Staff"
+  },
+  "options": {},
+  "attributes": {
+    "Fullname": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    },
+    "TelephoneNumber": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
