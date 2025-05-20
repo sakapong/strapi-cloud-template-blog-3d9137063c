@@ -44,6 +44,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "List": {
+      "displayName": "Service Summary",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.service-summary"
     }
   }
 }

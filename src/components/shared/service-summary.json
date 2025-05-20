@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_service_summaries",
+  "info": {
+    "displayName": "Service Summary"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "text"
+    }
+  }
+}
