@@ -434,6 +434,9 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    report_file: Schema.Attribute.Media<
+      'images' | 'videos' | 'audios' | 'files'
+    >;
     seo: Schema.Attribute.Component<'shared.seo', false>;
     slug: Schema.Attribute.UID<'title'>;
     title: Schema.Attribute.String;
